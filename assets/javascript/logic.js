@@ -247,7 +247,7 @@ $(document).ready(function(){
           var recipeIndex = recipeArray[Math.floor(Math.random()*recipeArray.length)];
 
           //Second AJAX call to obtain recipe detail
-          var recipeURL = "http://api.yummly.com/v1/api/recipe/" + recipeId + "?_app_id=649a83ad&_app_key=4697316e4e0926361a8b7dba1626b763";
+          var recipeURL = "https://api.yummly.com/v1/api/recipe/" + recipeId + "?_app_id=649a83ad&_app_key=4697316e4e0926361a8b7dba1626b763";
 
           $.ajax({
             url: recipeURL,

@@ -218,7 +218,7 @@ $(document).ready(function(){
   function makeAjaxCalls() {
       //First AJAX call to yummly to obtain list of recipes based on the random food choice selected
     
-    var searchURL = "http://api.yummly.com/v1/api/recipes?_app_id=649a83ad&_app_key=4697316e4e0926361a8b7dba1626b763&q=" + foodChoice +"&maxResult=100";
+    var searchURL = "https://api.yummly.com/v1/api/recipes?_app_id=649a83ad&_app_key=4697316e4e0926361a8b7dba1626b763&q=" + foodChoice +"&maxResult=100";
 
     $.ajax({
       url: searchURL,
